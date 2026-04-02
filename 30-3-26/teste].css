@@ -1,0 +1,13 @@
+h1 {
+    color: pink;
+    text-align: center;
+}
+p {
+    font-size: 20px;
+} 
+.destaque {
+    font-style: italic;
+}
+#projeto { 
+    color: hotpink
+}

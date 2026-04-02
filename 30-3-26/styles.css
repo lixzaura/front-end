@@ -1,0 +1,38 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+p {
+    font-size: 20px;
+}
+.destaque {
+    font-style: italic;
+}
+#projeto{
+    color: brown;
+}
+
+h3 {
+    color: #106323;
+}
+
+nav {
+    width: 150px;
+    background-color: rgb(216, 231, 51);
+}
+a {
+    width: 100px;
+    height: 30px;
+    display: block;
+    background-color: cadetblue;
+    margin: 5px 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    /*padding: top/bottom left/right*/
+    /*padding: top rigtht bottom left*/
+    padding: 5px 10px 5px 10px;
+    border: #000 3px solid;
+    box-sizing: border-box;
+}
