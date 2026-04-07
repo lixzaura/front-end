@@ -1,0 +1,99 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* 🔝 HEADER */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; /* separa título e menu */
+  align-items: center;            /* alinha verticalmente */
+  background-color: #333;
+  color: fuchsia;
+  padding: 15px 20px;
+}
+
+h1 {
+  background-color: #4f4f4f;
+}
+
+
+
+nav{
+  background-color: #222;
+}
+
+/* Menu com flex */
+.menu {
+  display: flex;
+  gap: 150px; /* espaçamento moderno */
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+/* 📦 LAYOUT PRINCIPAL */
+.container {
+  display: flex;
+  min-height: 80vh;
+  background-color: bisque;
+}
+
+/* Sidebar */
+.sidebar {
+  flex: 1; /* ocupa menos espaço */
+  background-color: #f4f4f4;
+  padding: 15px;
+}
+
+/* Conteúdo principal */
+.conteudo {
+  flex: 3; /* ocupa mais espaço */
+  padding: 15px;
+}
+
+/* 🧩 CARDS */
+.cards {
+  display: flex;
+  /*flex-wrap: wrap;    /* permite quebrar linha */
+  gap: 15px;
+  margin-top: 15px;
+  background-color: aqua;
+  justify-content: space-AROUND;
+}
+
+/* Card individual */
+.card {
+  flex: 1 1 200px; 
+  /* grow | shrink | basis */
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+/* Destaque */
+.destaque {
+  flex: 2 0 200px; /* cresce mais que os outros */
+  background-color: lightcoral;
+}
+
+/* 🎯 Alinhamento interno com flex */
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 🔻 FOOTER */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  height: 60px;
+}

@@ -1,0 +1,69 @@
+/* Reset básico */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Header por ID */
+#topo {
+  background-color: #333;
+  color: #ffbbff;
+  text-align: center;
+  padding: 20px;
+}
+
+h1{
+    padding: 10px;
+    margin: 10px
+}
+
+/* Seções principais */
+main {
+  padding: 20px;
+  background-color: #ffddff;
+}
+
+/* Classe reutilizável */
+.card {
+  background-color: white;
+  border: 2px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+
+/* Classe extra (destaque) */
+.destaque {
+  border-color: fuchsia;
+  background-color: #fef;
+}
+
+/* Títulos */
+h2 {
+  margin-top: 0;
+}
+
+/* Botão */
+button {
+  background-color: #3f303f;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Efeito ao passar o mouse */
+button:hover {
+  background-color: black;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
