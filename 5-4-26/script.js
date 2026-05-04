@@ -15,7 +15,7 @@ function callback(e) { // o e é uma constante que busca algo. o e.target busca 
      e.stopPropagation();
     console.log("Reagir chamado a partir do botao", e.target);
     e.target.innerText = "Clicado";
-    console.log("this", this); // o this se refere a algum elemento
+    console.log("this", this); // não vamos usar o this em soluções simples
 }
 
 botao.addEventListener("click", callback); // Use função nomeada se precisar remover o evento ou reutilizar.
@@ -29,6 +29,9 @@ btn.addEventListener("click", (e) => { // Uma função arrow, rápida
 primary.addEventListener("click", function () { // uma função anonima
     console.log("eu sou uma funcao anonima");
 });
+
+// a diferença da função normal, anonima e arrow é, superficialmente, apenas de sintaxe.
+    // apenas tem diferença quando utilizamos o "this", que não vamos fazer o uso dele no momento
 
 input.addEventListener("input", (e) => {
     console.log(e.target.value);
